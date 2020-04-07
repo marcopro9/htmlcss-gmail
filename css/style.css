@@ -1,0 +1,68 @@
+/* regole generali */
+body{
+  background-image: url('../img/woodbackground.jpg');
+
+}
+.main-wrapper{
+  width: 50%;
+  margin: auto;
+}
+/* fine regole generali */
+
+/* regole header */
+header{
+  color: white;
+  }
+#logo-gmail{
+  height: 100px;
+  vertical-align: middle;
+}
+.logo-text{
+  font-size: 1.5em;
+}
+.counter{
+  line-height: 50px;
+  font-size: 1.5em;
+  margin: 5px 0 0;
+}
+.number{
+  display: inline-block;
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+}
+/* fine regole header */
+
+/* inizio regole main content */
+.single-email{
+  background-color: lightgrey;
+  margin-bottom: 2px;
+}
+.single-email-read{
+  background-color: white;
+  margin-bottom: 2px;
+}
+.subject{
+  font-weight: bold;
+}
+.mail-content{
+  color: #808080;
+}
+/* fine regole main content */
+
+/* inizio regole footer */
+footer p {
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.autore{
+font-style: italic;
+font-size: 0.7em;
+}
+/* fine regole footer */
